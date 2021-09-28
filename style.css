@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 1px black solid; */
+    color: white;
+    font-family: 'Codystar', sans-serif;
+    
+}
+
+header{
+    margin: auto;
+    padding: 12vh;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1rem;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+
+    background-image: url("./pexels-ricardo-rojas-3608804.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:-50px 0px;
+
+}
+
+.heroSection{
+
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.button{
+
+    font-family: sans-serif;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid white;
+    margin: auto;
+    font-size: 2rem;
+    transition: 0.5s;
+    justify-content: center;
+
+    
+}
+
+.animate{
+    transform: scale(2);
+}
+
